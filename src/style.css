@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+
+/* CSS Document */
+
+/* ESTILO DE LA PRIMERA PÁGINA */
+
+  .titulo {padding: 100px;}
+  .titulo h1 {font-size: 110px; font-weight: bold; border-radius: 10px; border: 8px solid #DC7979;}
+  .titulo p {font-size: 40px; color: #151313; font-weight: bold;}
+  .formularios {color: #151313;}
+
+  .boton-cipher {margin-top: 40px; margin-bottom: 100px; text-decoration: none; padding: 15px; font-weight: 600;
+    font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;
+  }
+  .boton-descipher {margin-top: 40px; margin-bottom: 60px; text-decoration: none; padding: 15px;
+    font-weight: 600; font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;
+  }
+
+  input {background-color: #FCF7B1;}
+  body { background: url("image/shoe.jpg"); background-attachment: fixed; background-size: cover; background-position: left;
+    font-family: 'Aref Ruqaa', serif; font-size: 30px; font-weight: bold; width: 100%; margin: 0px; text-align: center;
+  }

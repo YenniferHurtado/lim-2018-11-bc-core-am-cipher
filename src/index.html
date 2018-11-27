@@ -2,14 +2,79 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Style in Shoe</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+
+      <!--PRIMERA PANTALLA-->
+      <section id= "first-screen">
+
+        <!--TITULO y párrafo-->
+        <div class="titulo">
+          <h1>Bienvenid@s a <br>Style in Shoe</h1>
+          <p>Estamos muy contentos de tenerte como cliente<br>y por ello este obsequio es para ti!!</p>
+        </div>
+
+        <!--FORMULARIOS-->
+        <form class="formularios">
+          <div>
+              <label for="txt-descifrado">Ingresa el código de descuento</label>
+                <input type="text" id="txt-descifrado">
+          </div>
+          <div>
+              <label for="number-code">Ingresa el número de cliente</label>
+                <input type="number" id="number-code">
+          </div>
+          <div>
+              <label for="txt-cifrado">Genera un código (Sólo Administración)</label>
+                <input type="text" id="txt-cifrado">
+          </div>
+              <button class="boton-descipher" id="btn-descifrar" type="button">RECIBE TU REGALO <br>CLIENTES</button>
+              <button class="boton-cipher" id="btn-cifrar" type="button">GENERA CÓDIGO<br>ADMINISTRACIÓN</button>
+        </form>
+
+      </section>
+      <!--PRIMERA PANTALLA-->
+
+
+      <!--SEGUNDA PANTALLA (cifrado)-->
+      <section id="second-screen">
+
+        <div>
+          <h1>¡¡FELICIDADES!!</h1>
+          <h2>Tienes un <span id="discount"> </span> % de descuento!! Usalo en cualquiera de nuestras tiendas más cercanas indicando el código en atención al cliente. </h2>
+        </div>
+        <div>
+          <button type="button" id="come-back">VOLVER AL INICIO</button>
+        </div>
+
+      </section>
+
+
+      <!--TERCERA PANTALLA (descifrado)-->
+      <section id="third-screen">
+
+        <div>
+          <h2>Brinda este código <span id="code"> </span> de descuento al cliente a través del correo para que pueda acceder a su regalo. Válido 10 días después de ser recibido.</h2>
+        </div>
+        <button type="button" id="come-back2">VOLVER AL INICIO</button>
+
+      </section>
+
+      <!--TERCERA PANTALLA (descifrado)-->
+
+      <script type="text/javascript" src="index.js">
+      </script>
+      <script type="text/javascript" src="cipher.js">
+      </script>
+
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
+    
   </body>
 </html>
