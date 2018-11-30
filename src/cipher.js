@@ -17,7 +17,7 @@ const decode = (mensaje, offset) => {
     let datoEnAscii = mensaje.toUpperCase().charCodeAt(i)
     const formulaAscii = (datoEnAscii - 90 - offset) % 26 + 90
     const resultadoAscii = String.fromCharCode(formulaAscii)
-    resultado = resultado + resultadoAscii;
+    resultado = resultado + resultadoAscii
 
   } return resultado;
 };
