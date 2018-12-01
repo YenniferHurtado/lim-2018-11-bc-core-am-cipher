@@ -1,5 +1,5 @@
 
-const encode = (string, offset) => {
+const encode = (offset, string) => {
   let results = ""
   for (let i = 0; i < string.length; i++){
     let positionAscii = string.toUpperCase().charCodeAt(i)
@@ -11,10 +11,10 @@ const encode = (string, offset) => {
 
 };
 
-const decode = (mensaje, offset) => {
+const decode = (offset, string) => {
   let resultado = ""
-  for(let i = 0; i < mensaje.length; i++){
-    let datoEnAscii = mensaje.toUpperCase().charCodeAt(i)
+  for(let i = 0; i < string.length; i++){
+    let datoEnAscii = string.toUpperCase().charCodeAt(i)
     const formulaAscii = (datoEnAscii - 90 - offset) % 26 + 90
     const resultadoAscii = String.fromCharCode(formulaAscii)
     resultado = resultado + resultadoAscii
@@ -23,10 +23,10 @@ const decode = (mensaje, offset) => {
 };
 
 window.cipher = {
-  encode: (string, offset) => {
-      return encode(string, offset)
+  encode: (offset, string) => {
+      return encode(offset, string)
   },
-  decode: (mensaje, offset) => {
-    return decode(mensaje, offset)
+  decode: (offset, string) => {
+    return decode(offset, string)
   },
 }
