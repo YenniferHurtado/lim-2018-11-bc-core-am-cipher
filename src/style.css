@@ -4,19 +4,46 @@
 
 /* ESTILO DE LA PRIMERA PÁGINA */
 
-  .titulo {padding: 100px;}
-  .titulo h1 {font-size: 110px; font-weight: bold; border-radius: 10px; border: 8px solid #DC7979;}
+  .titulo {margin-right: 100px; margin-left: 100px;}
+  .titulo h1 {font-size: 110px; font-weight: bold; border-radius: 10px; border: 4px solid rgb(143, 253, 171); background: url("image/titulo.jpg");
+  background-size: cover;}
   .titulo p {font-size: 40px; color: #151313; font-weight: bold;}
   .formularios {color: #151313;}
 
-  .boton-cipher {margin-top: 40px; margin-bottom: 100px; text-decoration: none; padding: 15px; font-weight: 600;
-    font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;
-  }
-  .boton-descipher {margin-top: 40px; margin-bottom: 60px; text-decoration: none; padding: 15px;
-    font-weight: 600; font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;
-  }
+  .boton-cipher {margin-top: 120px; margin-left: 30px; margin-bottom: 100px; text-decoration: none; padding: 15px; font-weight: 600;
+    font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;}
 
-  input {background-color: #FCF7B1;}
+  .boton-descipher {margin-top: 120px; margin-bottom: 60px; text-decoration: none; padding: 15px;
+    font-weight: 600; font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;}
+
+  input {background-color: rgb(241, 229, 231); border-radius: 6px; border: 2px solid #DC7979;}
   body { background: url("image/shoe.jpg"); background-attachment: fixed; background-size: cover; background-position: left;
-    font-family: 'Aref Ruqaa', serif; font-size: 30px; font-weight: bold; width: 100%; margin: 0px; text-align: center;
-  }
+    font-family: 'Aref Ruqaa', serif; font-size: 30px; font-weight: bold; width: 100%; margin: 0px; text-align: center;}
+
+
+
+/* ESTILO DE LA SEGUNDA PÁGINA */
+
+  .titulo2 h1 {font-size: 60px; font-weight: bold;}
+  .titulo2 {margin-right: 100px; margin-left: 100px; margin-top: 100px; padding: 15px; color: #0e0d0d; background: url("image/titulo.jpg"); border-radius: 10px; 
+    border: 2px solid rgb(121, 188, 226); font-weight: bold;}
+
+  .titulo2 span {padding: 15px; font-weight: 600; font-size: 30px; color: #050505; background-color: hsl(80, 8%, 93%); border-radius: 10px; border: 2px solid rgb(17, 16, 16);} 
+
+
+
+/* ESTILO DE LA TERCERA PÁGINA */
+
+  .titulo3 h2 {font-size: 60px; background: url("image/titulo.jpg"); border-radius: 10px; border: 4px solid rgb(143, 253, 171); margin-right: 100px; margin-left: 100px;}
+  .titulo3 span {padding: 15px; font-weight: 600; font-size: 30px; color: #050505; background-color: hsl(0, 0%, 100%); border-radius: 10px; border: 2px solid rgb(17, 16, 16);}
+
+
+/* BOTON DE REGRESO AL INICIO */
+
+  .boton2 {margin-top: 40px; margin-bottom: 60px; text-decoration: none; padding: 15px;
+    font-weight: 600; font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;}
+
+
+  .boton3 {margin-top: 40px; margin-bottom: 60px; text-decoration: none; padding: 15px;
+    font-weight: 600; font-size: 20px; color: #ffffff; background-color: #DC7979; border-radius: 6px; border: 2px solid #DC7979;}
+

@@ -1,4 +1,3 @@
-
 const encode = (offset, string) => {
   let results = ""
   for (let i = 0; i < string.length; i++){
