@@ -26,7 +26,7 @@ btnCifrar.addEventListener("click", () => {
 
   firstScreen.style.display = "none";
   thirdScreen.style.display = "block";
-  code.innerHTML = cipher.encode(cifrado.value, parseInt(number.value));
+  code.innerHTML = cipher.encode(parseInt(number.value), cifrado.value);
 })
 
 //botón del descifrado
@@ -36,7 +36,7 @@ btnDescifrar.addEventListener("click", () => {
     firstScreen.style.display = "none";
     thirdScreen.style.display = "none";
     secondScreen.style.display = "block";
-    descuento.innerHTML = cipher.decode(descifrado.value, parseInt(number.value));
+    descuento.innerHTML = cipher.decode(parseInt(number.value), descifrado.value);
 
  })
 
@@ -57,3 +57,8 @@ btnTerceraPantalla.addEventListener("click", () => {
     thirdScreen.style.display = "none";
     firstScreen.style.display = "block";
 })
+
+//BOTON DE COPIAR
+
+
+
